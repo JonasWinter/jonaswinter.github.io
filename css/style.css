@@ -81,7 +81,7 @@ body {
     display: flex;
     margin-top: 2em;
     margin-bottom: 1em;
-    margin-left:3em;
+    margin-left: 3em;
     margin-right: 3em;
     justify-content: space-between;
 }
@@ -117,6 +117,17 @@ body {
     }
 
     .wrapper .card {
-        padding: 10px;
+        padding: 8px;
+    }
+
+    .wrapper .card .social {
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .wrapper .card .profile .desc {
+        font-size: 1em;
     }
 }

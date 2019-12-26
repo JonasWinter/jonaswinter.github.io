@@ -105,10 +105,11 @@ body {
     transition: background 0.3s ease-in;
 }
 
-.wrapper .card .social .icon a:hover {
-    background-color: rgba(40, 40, 43, 0.3);
+@media (hover: hover) and (pointer: fine) {
+    .wrapper .card .social .icon a:hover {
+        background-color: rgba(40, 40, 43, 0.3);
+    }
 }
-
 
 @media screen and (max-width: 575px) {
     .wrapper {

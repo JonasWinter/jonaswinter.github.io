@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url("/img/background.png");
+    background-image: url("/img/background.jpg"), url("/img/background_preload.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;

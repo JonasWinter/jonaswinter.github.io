@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,30 +8,34 @@
 
     <title>Jonas Winter</title>
     <link rel="stylesheet" type="text/css" href="/css/style.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
     <link rel="manifest" href="/favicon/site.webmanifest">
 </head>
+
 <body>
     <div class="wrapper">
         <div class="card">
             <div class="profile">
                 <div class="name">Jonas Winter</div>
                 <div class="desc">
-                    <p>Software Engineering & Cyber Security</p>
-                    <p>Business Information Systems @ TU Darmstadt</p>
+                    <p>Associate Cybersecurity & Privacy</p>
+                    <p>PricewaterhouseCoopers</p>
                 </div>
             </div>
             <div class="social">
                 <div class="icon">
-                    <a target="_blank" href="https://www.linkedin.com/in/jonas-winter-bb50771a3/"><i class="fab fa-linkedin-in"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/jonas-winter-bb50771a3/"><i
+                            class="fab fa-linkedin-in"></i></a>
                 </div>
-                
+
                 <div class="icon">
-                    <a target="_blank" href="https://www.xing.com/profile/Jonas_Winter23/"><i class="fab fa-xing"></i></a>
+                    <a target="_blank" href="https://www.xing.com/profile/Jonas_Winter23/"><i
+                            class="fab fa-xing"></i></a>
                 </div>
 
                 <div class="icon">
@@ -38,10 +43,23 @@
                 </div>
 
                 <div class="icon">
-                    <a target="_blank" href="mailto:jonas.winter@stud.tu-darmstadt.de"><i class="fas fa-envelope"></i></a>
+                    <a target="_blank" href="mailto:info@jonaswinter.me"><i
+                            class="fas fa-envelope"></i></a>
                 </div>
             </div>
         </div>
     </div>
+    <script>
+        window.onload = (event) => {
+            sleep(500).then(() => {
+                document.body.style.backgroundImage = "url('/img/background.jpg')";
+            });
+        };
+
+        function sleep(time) {
+            return new Promise((resolve) => setTimeout(resolve, time));
+        }
+    </script>
 </body>
+
 </html>

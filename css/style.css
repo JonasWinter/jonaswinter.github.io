@@ -3,13 +3,14 @@
 }
 
 body {
-    background-image: url("/img/background.jpg"), url("/img/background_preload.jpg");
+    background-image: url("/img/background_preload.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: #ffffff;
+    background-color: white;
     font-family: 'Source Sans Pro', sans-serif;
+    transition: background-image 3s;
 }
 
 .wrapper {

@@ -50,8 +50,9 @@
     </div>
     <script>
         window.onload = (event) => {
-            sleep(1500).then(() => {
-                document.body.style.backgroundImage = "url('/img/background.jpg')";
+            var backgroundImage = "url('/img/background.jpg')";
+            sleep(1000).then(() => {
+                document.body.style.backgroundImage = backgroundImage;
             });
         };
 
